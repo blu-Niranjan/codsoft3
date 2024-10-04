@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Fizzberry</h1>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h2>The Tailor Is In</h2>
+                <p>The ultimate custom menswear experience is now open.</p>
+                <a href="#" class="btn-primary">Book an Appointment</a>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="https://freepngdownload.com/image/thumb/suit-png-free-download-7.png" alt="Tailored Suit">
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="feature-section" data-aos="fade-up">
+        <div class="container">
+            <h3>The Made to Measure Difference</h3>
+            <p>We create suits and shirts customized to your exact measurements and personal style.</p>
+            <a href="#" class="btn-secondary">See the Suits</a>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="info-box" data-aos="zoom-in">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Come See Us</h4>
+                <p>Visit our stores for a tailored experience.</p>
+            </div>
+            <div class="info-box" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-tshirt"></i>
+                <h4>Make It Your Own</h4>
+                <p>Customize your suits with various options.</p>
+            </div>
+            <div class="info-box" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-ruler-combined"></i>
+                <h4>Perfect the Fit</h4>
+                <p>We ensure a perfect fit with every garment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // Animation duration in milliseconds
+            once: true       // Whether animation should happen only once
+        });
+    </script>
+</body>
+</html>
